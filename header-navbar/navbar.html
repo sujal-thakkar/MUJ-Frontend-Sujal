@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="../contact us page/MUJ-Unity-Fest-Logo-6 1.svg" alt="Logo">
+            </div>
+            <button class="nav-toggle" onclick="toggleMenu()">
+                <img src="../contact us page/burger-menu-svgrepo-com.svg" alt="Open Menu" class="menu-icon open-icon">
+                <img src="../contact us page/cross-svgrepo-com.svg" alt="Close Menu" class="menu-icon close-icon"
+                    style="display: none;">
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../home-page/home.html">Home</a></li>
+                <li><a href="#">Competitions</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="../about-us-page/about-us.html" class="active">About Us</a></li>
+                <li><a href="../contact us page/index.html">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="btn btn-primary">Login</button>
+                <button class="btn btn-outline">Signup</button>
+            </div>
+        </div>
+    </header>
+
+    <script src="navbar.js"></script>
+</body>
+
+</html>
