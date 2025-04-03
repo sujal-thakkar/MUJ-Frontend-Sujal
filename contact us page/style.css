@@ -1989,7 +1989,7 @@ video {
 .competitions-header .design-element {
   position: absolute;
   top: -5px;
-  right: -2px;
+  right: 21px;
   height: 35px;
   width: auto;
 }
